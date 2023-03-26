@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathering With Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <section class="top-banner">
+            <div class="container">
+            <h1 class="heading">WEATHERING WITH ME</h1>
+            <form>
+                <input type="text" id="text" placeholder="Search for a city" autofocus>
+                <button type="submit">GET THE WEATHER</button>
+                <button id="reset" type="button">CLEAR</button>
+                <span class="msg"></span>
+            </form>
+            </div>
+        </section>
+        <section class="ajax-section">
+            <div class="container">
+            <ul class="cities"></ul>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
